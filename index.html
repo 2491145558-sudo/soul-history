@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#183e38">
+<title>测测你的灵魂对应哪位中国历史人物</title>
+<link rel="stylesheet" href="style.css"><script defer src="app.js"></script>
+</head>
+<body>
+<header><a class="brand" href="#" id="brand"><span class="seal">观</span>观心录 <small>SOUL · THROUGH TIME</small></a><span class="header-note">千年之间，自有回响</span></header>
+<main>
+<section id="home" class="screen">
+<div class="intro"><p class="eyebrow">一场跨越千年的性格相逢</p><h1>你的灵魂，<br>曾在哪个时代<br><em>闪闪发光？</em></h1><p class="lead">有人心藏山海，有人胸有丘壑。<br>从日常的小小选择里，遇见与你同频的古人。</p><button class="primary" id="start">启卷 · 寻找我的灵魂知己</button><p class="meta">40 道生活题 · 约 5–8 分钟 · 14 位历史人物</p><button id="resume" class="text-button" hidden>继续上次的答卷</button></div>
+<div class="art" aria-hidden="true"><div class="orbit"></div><div class="moon"></div><div class="mountain back"></div><div class="mountain front"></div><div class="water"></div><div class="poem">不问来处<br>只问本心</div><span class="art-seal">见自己</span><span class="art-caption">山河为镜 · 照见本心</span></div>
+<div class="home-bottom"><div><b>不考历史</b><span>只聊你的生活与选择</span></div><div><b>八维画像</b><span>看见性格里不同的光</span></div><div><b>一眼同频</b><span>收藏你的专属灵魂签</span></div></div>
+</section>
+<section id="quiz" class="screen" hidden><div class="quiz-top"><span id="category"></span><span id="counter"></span></div><div class="progress" role="progressbar" aria-label="答题进度" aria-valuemin="0" aria-valuemax="40"><div id="bar"></div></div><div id="question-panel"><p class="eyebrow" id="question-label"></p><h2 id="question" tabindex="-1"></h2><p class="hint">选择最像平时的你的那一项，没有标准答案。</p><div id="options" role="group" aria-labelledby="question"></div></div><div class="quiz-nav"><button class="text-button" id="prev">上一题</button><span>凭直觉，听见自己的答案</span><button class="primary small" id="next" disabled>下一题</button></div><button id="back-home" class="text-button quiet">返回首页（保留进度）</button></section>
+<section id="result" class="screen" hidden><div class="result-heading"><p class="eyebrow">你的千年灵魂回响</p><h2>原来，你与 TA 同频。</h2><p>不是成为某个人，而是看见你本来的光。</p></div><article id="result-card"><div class="card-top"><span>观心录 · 灵魂签</span><span id="result-type"></span></div><div class="identity"><div><p id="era" class="eyebrow"></p><h3 id="person"></h3><p id="subtitle"></p></div><div id="monogram" aria-hidden="true"></div></div><blockquote id="quote"></blockquote><div id="tags"></div><div class="result-grid"><div><h4>为什么是 TA</h4><p id="reason"></p><h4>藏在你身上的优势</h4><p id="strength"></p><h4>你的趣味彩蛋</h4><p id="egg"></p></div><div><h4>八维性格光谱</h4><div id="dimensions"></div></div></div><div class="card-footer">测测你的灵魂对应哪位中国历史人物<br><small>生活选择的趣味映照 · 非专业心理诊断 · 非历史人物完整评价</small></div></article><div class="result-actions"><button class="primary" id="save-image">保存分享卡片</button><button class="secondary" id="review">回看答案</button><button class="text-button" id="restart">重新测试</button></div><p class="share-hint" id="share-status" role="status">也可以直接截图，把这份千年回响分享给朋友。</p></section>
+</main><footer>每个人都不止一种模样。此刻的选择，只是你的一面。</footer>
+</body></html>
